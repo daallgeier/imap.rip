@@ -23,14 +23,14 @@ This is especially usefull and important for service providers that access an em
 <td markdown="span">{{ vendor.microsoftaad }}</td>
 <td markdown="span">{{ vendor.gmailapi }}</td>
 <td markdown="span">{{ vendor.outlookapi }}</td>
-<!-- <td> 
+<td> 
   {% for source in vendor.pricing_source %}
   {% if forloop.first == false %}
   &amp;
   {% endif %}
 <a href="{{ source }}">&#128279;</a>
 {% endfor %}
-{{ vendor.pricing_note }}</td> -->
+{{ vendor.pricing_note }}</td>
 <td>{{ vendor.updated_at }}</td>
 </tr>
 {% endfor %}
