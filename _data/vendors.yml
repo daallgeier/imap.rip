@@ -1,6 +1,6 @@
 - name: Airtable
   url: https://airtable.com
-  googleic: $10 per u/m
+  googleci: $10 per u/m
   microsoftsso: $60 per u/m
   gmailapi: 500%
   outlookapi: 1 
