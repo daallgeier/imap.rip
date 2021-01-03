@@ -1,20 +1,20 @@
 - name: Freshworks CRM
   url: https://freshworks.com/crm
   googleci: true
-  microsoftsso: true
+  microsoftaad: true
   gmailapi: true
   outlookapi: false 
   pricing_source: n/a 
   pricing_note: Note
   footnotes: "[^freshworks-crm]: Freshworks CRM asks for Google API access but claims that imap is required"
   updated_at: 2020-01-03
-- name: Freshworks CRM
-  url: https://freshworks.com/crm
+- name: Freshdesk
+  url: https://freshdesk.com
   googleci: true
-  microsoftsso: true
-  gmailapi: true
+  microsoftaad: true
+  gmailapi: false
   outlookapi: false 
   pricing_source: n/a 
-  pricing_note: Note
-  footnotes: "[^freshworks-crm]: Freshworks CRM asks for Google API access but claims that imap is required"
+  pricing_note: Uses forwarding
+  footnotes: "[^freshdesk]: Freshdesk uses forwarding to a custom email address."
   updated_at: 2020-01-03
