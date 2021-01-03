@@ -1,10 +1,10 @@
-- name: Airtable
-  url: https://airtable.com
-  googleci: $10 per u/m
-  microsoftsso: $60 per u/m
-  gmailapi: 500%
-  outlookapi: 1 
-  pricing_source: https://airtable.com/pricing
-  pricing_note: Quote
-  footnotes: "[^airtable-price]: $60 per user per month, minimum of $3000 per month."
-  updated_at: 2019-10-19
+- name: Freshworks CRM
+  url: https://freshworks.com/crm
+  googleci: true
+  microsoftsso: true
+  gmailapi: true
+  outlookapi: false 
+  pricing_source: n/a 
+  pricing_note: Note
+  footnotes: "[^freshworks-crm]: Freshworks CRM asks for Google API access but claims that imap is required"
+  updated_at: 2020-01-03
